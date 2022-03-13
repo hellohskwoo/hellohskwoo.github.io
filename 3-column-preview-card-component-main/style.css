@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.contain{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	border-radius: 15px;
+}
+.main_card{
+	padding: 55px;
+	width: 240px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+}
+.text_card {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 250px;
+}
+.text_card > h1 {
+	color: white;
+	
+	font-size: 50px;
+	font-family: 'Big Shoulders Display', cursive;
+}
+.text_card > p {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400;
+	word-spacing: 5px;
+	color: white;
+	line-height: 25px;
+	font-size: 15px;
+	width: 220px;
+}
+.main_card:nth-of-type(1){
+	border-radius: 15px 0px 0px 15px;
+	background: hsl(31, 77%, 52%);
+}
+.main_card:nth-of-type(2){
+	background: hsl(184, 100%, 22%);
+}
+.main_card:nth-of-type(3){
+	border-radius: 0px 15px 15px 0px;
+	background: hsl(179, 100%, 13%);
+}
+#button1{
+	position: absolute;
+	width: 180px;
+	height: 50px;
+	border-radius: 35px;
+	border: 0px ;
+	font-size: 15px;
+	color: hsl(31, 77%, 52%);
+	bottom: 45px;
+}
+#button2{
+	width: 180px;
+	height: 50px;
+	border-radius: 35px;
+	border: 0px ;
+	font-size: 15px;
+	color: hsl(184, 100%, 22%);
+	position: absolute;
+	bottom: 45px;
+}
+#button3{
+	width: 180px;
+	height: 50px;
+	border-radius: 35px;
+	border: 0px ;
+	font-size: 15px;
+	color: hsl(179, 100%, 13%);
+	position: absolute;
+	bottom: 45px;
+}
+@media screen and (max-width: 376px){
+	body{
+		width: 100%;
+		
+		
+	}
+	main {
+		position: relative;
+		margin: 0 auto;
+		width: 350px;
+	}
+	.contain{
+		position: absolute;
+		transform: translate(0,0);
+		top: 0%;
+		left: 0%;
+		display: flex;
+		flex-direction: column;
+	}
+	.main_card{
+		position: relative;
+	}
+	.main_card:nth-of-type(1){
+		border-radius: 15px 15px 0px 0px;
+		background: hsl(31, 77%, 52%);
+	}
+	.main_card:nth-of-type(3){
+		border-radius: 0px 0px 15px 15px;
+		background: hsl(179, 100%, 13%);
+	}
+
+}
