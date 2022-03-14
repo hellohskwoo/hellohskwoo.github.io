@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body {
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url(images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+  background-color: hsl(185, 75%, 39%); 
+}
+.main_card{
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: white;
+}
+.card_background{
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+}
+.face_contain{
+  position: absolute;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%,-50%);
+  border-radius: 100%;
+  overflow: hidden;
+  background: white;
+  padding: 5px;
+}
+.face_real{
+  overflow: hidden;
+  border-radius: 100%;
+}
+.me_{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.me_ h1{
+  font-size: 20px;
+}
+.me_ h2{
+  font-size: 20px;
+  font-weight: 300;
+}
+.me_ h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+.foot{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.foot h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.foot h2{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+}
+@media screen and (max-width: 376px){
+  body{
+    background: url(images/bg-pattern-bottom.svg) bottom -600px right -750px no-repeat , url(images/bg-pattern-top.svg) top -500px left -750px no-repeat;
+    background-color: hsl(185, 75%, 39%);   
+  }
+  
+}
