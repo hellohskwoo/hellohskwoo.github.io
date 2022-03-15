@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: hsl(218, 23%, 16%);
+}
+.card_main{
+	widows: 370px;
+	height: 350px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: hsl(217, 19%, 24%);
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.rand_button_contain{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	background: hsl(150, 100%, 66%);
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.advice_num {
+	text-align: center;
+	color: hsl(150, 100%, 66%);
+}
+
+.text_main{
+	text-align: center;
+	color: hsl(193, 38%, 86%);
+	font-family: 'Manrope', sans-serif;
+}
+.rand_button_contain:hover{
+	box-shadow: 0px 0px 15px 1px hsl(150, 100%, 66%);
+	cursor:pointer;
+}
