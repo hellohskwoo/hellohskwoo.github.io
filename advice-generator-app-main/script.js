@@ -5,7 +5,7 @@ function init (){
 	num=(Math.random()*100)%7;
 	num=num-num%1;
 	document.querySelector('.text_main p').innerHTML=arr[num];
-	document.querySelector('.advice_num').innerHTML='Advice # '+num;
+	document.querySelector('.advice_num').innerHTML='Advice # '+(num+1);
 }
 arr=[
 "“We cannot solve problems with the kind of thinking we employed when we came up with them.”<br> — Albert Einstein",
