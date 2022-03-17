@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+body{ 
+		background: url(images/bg-desktop.png) 0% -100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: hsl(229, 57%, 11%);
+}
+main {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.fylo_contain {
+	width: 350px;
+	height: 180px;
+	background-color: hsl(228, 56%, 26%);
+	
+	border-radius: 8px;
+	border-top-right-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+
+}
+.fylo_menu {
+	display: flex;	
+}
+#file_fylo
+{
+	padding: 8px;
+	background: black;
+	margin-left: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#file_fylo:nth-of-type(1)
+{
+	margin-left: 35px;
+}
+.fylo_main{
+	position: relative;
+	width: 500px;
+	height: 115px;
+	top: 15px;
+	background-color: hsl(228, 56%, 26%);
+	margin-left: 30px;
+	border-radius: 8px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main_txt{
+	font-size: 14px;
+	color: hsl(229, 7%, 55%);
+}
+.que {
+	position: absolute;
+}
+.bar_ {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background: hsl(229, 57%, 11%);
+	border-radius: 30px;
+	display: flex;
+}
+.bar_color
+{
+	width: 70%;
+	height: 30px;
+	background: red;
+	border-radius: 30px;
+	background-image: linear-gradient(45deg,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+}
+.bar_ball {
+	position: absolute;
+	background: white;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	top:10%;
+	left: 65%;
+}
+.foot_text{
+	display: flex;
+	justify-content: space-between;
+}
+.foot_text span {
+	font-size: 14px;
+	color: white;
+}
+.que {
+	width: 180px;
+	height: 70px;
+	position: absolute;
+	background: white;
+	border-radius: .4em;
+	left: 61%;
+	top: -18%;
+	text-align: center;
+	color: hsl(229, 7%, 55%);
+}
+
+.que:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 29px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: 60px;
+	margin-bottom: -26px;
+}
+.que span{
+		font-size: 50px;
+		font-family: 'Raleway', sans-serif;
+		color: black;
+}
